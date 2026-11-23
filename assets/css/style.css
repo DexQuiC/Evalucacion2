@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -140,13 +151,79 @@ h1, h2, .marca img, .btn-contacto, .btn-accion {
     .portada-principal h1 { font-size: 22px; }
     .grilla-tarjetas { grid-template-columns: 1fr; }
 }
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+.impacto-global {
+    background-color: #3A4750;
+    padding: 32px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    text-align: center;
 }
 
-@font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+.impacto-global h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.visuales-impacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.img-mapa {
+    width: 60%;
+    max-width: 650px;
+    height: auto;
+    display: block;
+}
+
+.img-grafico {
+    width: 24%;
+    max-width: 240px;
+    height: auto;
+    display: block;
+}
+
+.pie-pagina {
+    background-color: #3A4750;
+    padding: 24px 30px;
+    border-radius: 12px;
+}
+
+.titulo-footer {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.contenido-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.enlaces-pie {
+    display: flex;
+    gap: 24px;
+}
+
+.enlaces-pie a {
+    color: #F5F2EB;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .img-grafico { display: none; }
+    .img-mapa { width: 90%; }
+    .contenido-footer { flex-direction: column; gap: 12px; text-align: center; }
+}
+
+@media (max-width: 480px) {
+    .img-mapa { width: 100%; }
+    .enlaces-pie { flex-direction: column; gap: 10px; }
 }
