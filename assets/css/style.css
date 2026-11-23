@@ -12,7 +12,7 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, .marca img, .btn-contacto, .btn-accion {
+h1, h2, h3, .marca img, .btn-contacto, .btn-accion {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -132,6 +132,7 @@ h1, h2, .marca img, .btn-contacto, .btn-accion {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 24px;
+    color: #F5F2EB;
 }
 
 .visuales-impacto {
@@ -146,6 +147,7 @@ h1, h2, .marca img, .btn-contacto, .btn-accion {
     max-width: 650px;
     height: auto;
     display: block;
+    border-radius: 8px;
 }
 
 .img-grafico {
@@ -153,12 +155,14 @@ h1, h2, .marca img, .btn-contacto, .btn-accion {
     max-width: 240px;
     height: auto;
     display: block;
+    border-radius: 8px;
 }
 
 .pie-pagina {
     background-color: #3A4750;
     padding: 24px 30px;
     border-radius: 12px;
+    color: #F5F2EB;
 }
 
 .titulo-footer {
@@ -166,6 +170,7 @@ h1, h2, .marca img, .btn-contacto, .btn-accion {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 16px;
+    color: #F5F2EB;
 }
 
 .contenido-footer {
