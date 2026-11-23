@@ -1,14 +1,3 @@
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
-}
-
-
 * {
     margin: 0;
     padding: 0;
@@ -131,26 +120,6 @@ h1, h2, .marca img, .btn-contacto, .btn-accion {
     line-height: 1.7;
 }
 
-@media (max-width: 768px) {
-    body { padding: 20px; }
-    .btn-lupa { display: none; }
-    .btn-contacto { display: inline-block; }
-    .portada-principal { padding: 45px 25px; }
-    .portada-principal h1 { font-size: 26px; }
-    .grilla-tarjetas { gap: 14px; }
-    .tarjeta { padding: 18px 14px; }
-    .tarjeta h2 { font-size: 15px; }
-    .tarjeta p, .tarjeta ul { font-size: 13px; }
-}
-
-@media (max-width: 480px) {
-    body { padding: 15px; }
-    .encabezado { flex-direction: column; gap: 14px; padding: 16px; }
-    .btn-contacto { display: inline-block; width: 100%; text-align: center; }
-    .portada-principal { padding: 35px 18px; }
-    .portada-principal h1 { font-size: 22px; }
-    .grilla-tarjetas { grid-template-columns: 1fr; }
-}
 .impacto-global {
     background-color: #3A4750;
     padding: 32px;
@@ -218,12 +187,37 @@ h1, h2, .marca img, .btn-contacto, .btn-accion {
 }
 
 @media (max-width: 768px) {
+    body { padding: 20px; }
+    .btn-lupa { display: none; }
+    .btn-contacto { display: inline-block; }
+    .portada-principal { padding: 45px 25px; }
+    .portada-principal h1 { font-size: 26px; }
+    .grilla-tarjetas { gap: 14px; }
+    .tarjeta { padding: 18px 14px; }
+    .tarjeta h2 { font-size: 15px; }
+    .tarjeta p, .tarjeta ul { font-size: 13px; }
     .img-grafico { display: none; }
     .img-mapa { width: 90%; }
     .contenido-footer { flex-direction: column; gap: 12px; text-align: center; }
 }
 
 @media (max-width: 480px) {
+    body { padding: 15px; }
+    .encabezado { flex-direction: column; gap: 14px; padding: 16px; }
+    .btn-contacto { display: inline-block; width: 100%; text-align: center; }
+    .portada-principal { padding: 35px 18px; }
+    .portada-principal h1 { font-size: 22px; }
+    .grilla-tarjetas { grid-template-columns: 1fr; }
     .img-mapa { width: 100%; }
     .enlaces-pie { flex-direction: column; gap: 10px; }
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
 }
