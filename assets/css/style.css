@@ -1,3 +1,16 @@
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -215,14 +228,4 @@ h1, h2, h3, .marca img, .btn-contacto, .btn-accion {
     .grilla-tarjetas { grid-template-columns: 1fr; }
     .img-mapa { width: 100%; }
     .enlaces-pie { flex-direction: column; gap: 10px; }
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
 }
